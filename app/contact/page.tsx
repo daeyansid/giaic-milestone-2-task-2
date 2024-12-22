@@ -39,7 +39,7 @@ const Contact: NextPage = () => {
       <main className={styles.main}>
         <h1>Contact Us</h1>
         {submitted ? (
-          <p className={styles.thankYou}>Thank you for reaching out! We'll get back to you soon.</p>
+          <p className={styles.thankYou}>Thank you for reaching out! We&apos;ll get back to you soon.</p>
         ) : (
           <form className={styles.form} onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>
